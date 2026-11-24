@@ -1,13 +1,18 @@
 
-let i = 1;
-let sum = 0;
+document.getElementById("red").addEventListener("click", function() {
 
-while (i <= 100) {
+    document.body.style.backgroundColor = "red";
 
-    sum = sum + i;
-    i++;
+});
 
-}
+document.getElementById("green").addEventListener("click", function() {
 
-document.getElementById("result").textContent =
-    "The sum is: " + sum;
+    document.body.style.backgroundColor = "green";
+
+});
+
+document.getElementById("blue").addEventListener("click", function() {
+
+    document.body.style.backgroundColor = "blue";
+
+});
